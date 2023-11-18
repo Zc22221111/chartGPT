@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "chartgpt"
+version = "0.1.0"
+description = "chartGPT 让你与数据库聊天，给你生成可视化图表与数据洞察"
+authors = ["JG <gaojunqi@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.28.2"
+openai = "^1.2.4"
+dynaconf = "^3.2.4"
+langchain = "^0.0.335"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
