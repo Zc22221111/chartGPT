@@ -1,8 +1,8 @@
 from dynaconf import Dynaconf, Validator
 
 validators = {
-    'llm.model': Validator(
-        'llm.model',
+    'llm.model_name': Validator(
+        'llm.model_name',
         must_exist=True,
         condition=lambda v: isinstance(v, str),
     ),
