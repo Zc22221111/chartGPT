@@ -1,0 +1,17 @@
+[llm]
+_type = "chatOpenai"
+model_name = "gpt-3.5-turbo"
+api_key = ""
+temperature = 0.2
+request_timeout=60
+
+
+[db]
+uri = "msyql://root:pwd123@localhost:3306/testdb"
+
+[st.page]
+title = "chartGPT"
+icon = "📊"
+layout = "wide"
+input_placeholder = "销售概览\n上个月江浙沪有多少订单?\n以报表的方式提供上月产品的销量排行榜"
+help_text = "你可以通过文字向我提出您的一些分析需求。\n比如: \n- 以报表的方式提供上月产品的销量排行榜\n- 销售概览\n- 上个月江浙沪有多少订单?"
