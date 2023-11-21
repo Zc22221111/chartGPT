@@ -70,6 +70,7 @@ if submit:
                         language="json"
                     )
 
+            # 转换SQL
             answer = query_chain.predict(
                 question=query,
                 dialect=db.dialect,

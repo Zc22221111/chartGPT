@@ -2,7 +2,7 @@
 name = "chartgpt"
 version = "0.1.0"
 description = "chartGPT 让你与数据库聊天，给你生成可视化图表与数据洞察"
-authors = ["JG <gaojunqi@outlook.com>"]
+authors = ["CK <Zc22221111@outlook.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
